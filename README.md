@@ -1,2 +1,10 @@
 # Hidden-Markov-Model
 An instance of a Hidden Markov Model object made from scratch
+
+Utilizes bigrams and a simplistic out of vocabulary solution of having that probability be 1/10000
+Can improve accuracy by transitioning to a trigram model and having a more sophisticated OOV solution (i.e. morphological)
+
+Included in this model is an instance of the Viterbi algorithm used to decode a sequence
+of likely states given a string of observations
+
+When trained on the WSJ corpus it achieved an accuracy of 92.85%
