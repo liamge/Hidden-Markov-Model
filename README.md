@@ -7,4 +7,8 @@ Can improve accuracy by transitioning to a trigram model and having a more sophi
 Included in this model is an instance of the Viterbi algorithm used to decode a sequence
 of likely states given a string of observations
 
+main.py is an example of an implementation of the HMM trained on a corpus of the format:
+WORD\tPOS\n
+It then writes to the outfile the most likely states for each sequece of observations (in this case sentences)
+
 When trained on the WSJ corpus it achieved an accuracy of 92.85%
