@@ -11,4 +11,6 @@ main.py is an example of an implementation of the HMM trained on a corpus of the
 WORD\tPOS\n
 It then writes to the outfile the most likely states for each sequece of observations (in this case sentences)
 
+Command line access looks like: python3 main.py trainfile.txt testfile.txt output.txt
+
 When trained on the WSJ corpus it achieved an accuracy of 92.85%
